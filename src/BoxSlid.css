@@ -1,0 +1,21 @@
+body{
+    overflow-x: hidden;
+}
+.box {
+    position: absolute;
+    top: 0%;
+    opacity: 0;
+    transform: translateX(-10000px);
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+    animation: transition infinite;
+}
+
+.show {
+    position: absolute;
+    top: 0%;
+    transform: none;
+    opacity: 1;
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+    animation: transition infinite;
+
+}
